@@ -27,6 +27,6 @@ int diffOfMinAndMax(int[] array)
     return result = max - min;
 }
 
-int[] mass = newRandomArray(5, 0, 100);
+int[] mass = newRandomArray(5, 1, 100);
 Console.WriteLine($"Разница максимального и минимального чисел равна: {diffOfMinAndMax(mass)}");
 Console.WriteLine($"Массив: {string.Join(", ", mass)}");
